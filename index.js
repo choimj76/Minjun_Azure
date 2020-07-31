@@ -4,7 +4,7 @@ const app = express();
 var server = http.createServer(app);
 
 app.get('/', function(req, res){
-    res.send('I like Jenkins_TEST02!');
+    res.send('I like Jenkins_TEST03!');
 });
 
 app.get('/start', function(req, res){
